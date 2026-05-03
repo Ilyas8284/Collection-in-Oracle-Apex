@@ -61,7 +61,7 @@ Displays all records stored in the collection:
 - Salary  
 - Image  
 
-<img src="images/5-collection%20report.png" width="700"/>
+<img src="images/5-Collection%20report.png" width="700"/>
 
 ### 4️⃣ Update Collection Member
 
@@ -71,7 +71,7 @@ Displays all records stored in the collection:
 - SQL query available in the `/code` folder  
 
  
-<img src="images/update%20collection.png" width="700"/>
+<img src="images/8-update%20collection.png" width="700"/>
 
 ### 5️⃣ Delete Collection Member
 
@@ -80,7 +80,7 @@ Displays all records stored in the collection:
 - SQL query available in the `/code` folder  
 
  
-<img src="images/delete%20collection.png" width="700"/>
+<img src="images/9-delete%20collection.png" width="700"/>
 
 
 ### 6️⃣ Save Data to Database Table
@@ -89,13 +89,13 @@ Displays all records stored in the collection:
 - Collection is cleared after successful save  
 - SQL query available in the `/code` folder  
 
-<img src="images/save%20to%20table.png" width="700"/>
+<img src="images/7-save%20to%20table.png" width="700"/>
 
 ### 7️⃣ Final Table Report
 
 Displays persisted data from the database, including images.
 
-<img src="images/Emp%20Table%20data.png" width="700"/>
+<img src="images/6-emp%20Table%20data.png" width="700"/>
 
 
 ### 8️⃣ Validations
