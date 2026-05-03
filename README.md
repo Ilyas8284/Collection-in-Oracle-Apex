@@ -36,11 +36,13 @@ An **APEX Collection** is a **session-based temporary storage** mechanism in Ora
 A form is used to capture:
 
 - Employee Name  
+- dept
 - Job  
 - Salary  
-- Image  
+- comm
+- hire date 
 
-<img src="images/collection%20form.png" width="700"/>
+<img src="images/3-collection%20form.png" width="700"/>
 
 ### 2️⃣ Add to Collection
 
@@ -48,7 +50,7 @@ A form is used to capture:
 - Uses `APEX_COLLECTION.ADD_MEMBER`  
 - SQL query available in the `/code` folder  
 
-<img src="images/add%20collection.png" width="700"/>
+<img src="images/4-add%20to%20collection.png" width="700"/>
 
 ### 3️⃣ Collection Report (View Data)
 
@@ -59,7 +61,7 @@ Displays all records stored in the collection:
 - Salary  
 - Image  
 
-<img src="images/collection%20report.png" width="700"/>
+<img src="images/5-collection%20report.png" width="700"/>
 
 ### 4️⃣ Update Collection Member
 
