@@ -95,7 +95,7 @@ Displays all records stored in the collection:
 
 Displays persisted data from the database, including images.
 
-<img src="images/6-emp%20Table%20data.png" width="700"/>
+<img src="images/6- emp%20table%20data.png" width="700"/>
 
 
 ### 8️⃣ Validations
