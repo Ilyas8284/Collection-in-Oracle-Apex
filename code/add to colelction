@@ -1,0 +1,34 @@
+BEGIN
+    IF NOT apex_collection.collection_exists('EMPLOYEE_COLLECTION') THEN
+        apex_collection.create_collection('EMPLOYEE_COLLECTION');
+    END IF;
+
+    BEGIN
+
+        -- Add the member to the collection
+        apex_collection.add_member(
+            p_collection_name => 'EMPLOYEE_COLLECTION',
+            p_c001            => :P3_EMPNO,
+            p_c002            => :P3_ENAME,
+            p_c003            => :P3_JOB,
+            p_c004            => :P3_SAL,
+            P_C009            => :P3_DEPT,
+            P_C010            => :P3_HIRE_DATE,
+            P_C011            => :P3_COMM
+        );
+
+    EXCEPTION
+        WHEN NO_DATA_FOUND THEN
+            -- Handle the case where the file is not found
+            raise_application_error(-20001, 'File not found in temporary table');
+    END;
+
+    -- Clear the page items
+    :P3_EMPNO := NULL;
+    :P3_ENAME := NULL;
+    :P3_JOB := NULL;
+    :P3_SAL := NULL;
+    :P3_DEPT  :=NULL;
+    :P3_HIRE_DATE := NULL;
+    :P3_COMM     :=NULL;
+END;
