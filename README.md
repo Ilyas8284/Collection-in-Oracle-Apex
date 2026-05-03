@@ -27,7 +27,7 @@ An **APEX Collection** is a **session-based temporary storage** mechanism in Ora
 ## Application Screens
 
 <img src="images/1-collection%20page.png" width="700"/>  
-<img src="images/2-collection%20backend.png" width="700"/>
+<img src="images/2- collection%20backend.png" width="700"/>
 
 ## 🔄 Application Flow
 
