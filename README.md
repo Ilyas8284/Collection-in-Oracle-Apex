@@ -70,8 +70,7 @@ Displays all records stored in the collection:
 - Updates data using `APEX_COLLECTION.UPDATE_MEMBER`  
 - SQL query available in the `/code` folder  
 
-<img src="images/collection%20edit%20form%20and%20report.png" width="700"/>  
-<img src="images/collection%20update%20dynamic%20action.png" width="700"/>  
+ 
 <img src="images/update%20collection.png" width="700"/>
 
 ### 5️⃣ Delete Collection Member
@@ -80,8 +79,7 @@ Displays all records stored in the collection:
 - Uses `SEQ_ID` for identification  
 - SQL query available in the `/code` folder  
 
-<img src="images/collection%20delete.png" width="700"/>  
-<img src="images/collection%20delete%20dynamic%20action.png" width="700"/>  
+ 
 <img src="images/delete%20collection.png" width="700"/>
 
 
@@ -91,25 +89,25 @@ Displays all records stored in the collection:
 - Collection is cleared after successful save  
 - SQL query available in the `/code` folder  
 
-<img src="images/save%20collection%20data%20to%20table.png" width="700"/>
+<img src="images/save%20to%20table.png" width="700"/>
 
 ### 7️⃣ Final Table Report
 
 Displays persisted data from the database, including images.
 
-<img src="images/Emp%20Table%20Report.png" width="700"/>
+<img src="images/Emp%20Table%20data.png" width="700"/>
 
 
 ### 8️⃣ Validations
 
 Implemented **NOT NULL validations** on:
 
-- Employee Name  
+- Employee Name 
+- Dept 
 - Job  
 - Salary  
-
-<img src="images/collection%20validations%20and%20processes.png" width="700"/>
-
+- comm
+- Hire date
 
 
 ## Use Cases
