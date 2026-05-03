@@ -1,0 +1,15 @@
+BEGIN
+
+            APEX_COLLECTION.UPDATE_MEMBER(
+                P_COLLECTION_NAME => 'EMPLOYEE_COLLECTION',
+                P_SEQ             => :P3_SEQ_ID,
+                P_C001            => :P3_EMPNO,
+                P_C002            => :P3_ENAME,
+                P_C003            => :P3_JOB,
+                P_C004            => :P3_SAL,
+                P_C009            => :P3_DEPT,
+                P_C010            => :P3_COMM,
+                P_c011            => :P3_HIRE_DATE
+            );
+
+END;
